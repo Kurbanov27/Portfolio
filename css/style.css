@@ -1,3 +1,23 @@
+body {
+    min-width: 410px;
+    font-family: 'Cormorant';
+    color: #fff;
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 36px;
+    color: #000;
+    font-family: 'Cormorant';
+    text-transform: uppercase;
+    text-align: center;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -116,9 +136,6 @@ header .caption .btn:hover {
     margin-bottom: 30px;
 }
 
-.about .logo {
-    margin-top: 50px;
-}
 
 .about .logo img {
     width: 300px;
@@ -133,17 +150,6 @@ header .caption .btn:hover {
     margin-bottom: 50px;
 }
 
-.about .btn {
-    padding: 15px 30px;
-    color: #fff;
-    font-weight: 600;
-    background: #212121;
-    font-family: 'Cormorant';
-    text-transform: uppercase;
-    -webkit-box-shadow: 0 20px 15px #717479;
-    box-shadow: 0 20px 15px #717479;
-    margin-bottom: 90px;
-}
 
 .about h3 {
     font-size: 24px;
@@ -151,15 +157,6 @@ header .caption .btn:hover {
     text-transform: uppercase;
 }
 
-.about .progress {
-    margin-bottom: 40px;
-    height: 25px;
-}
-
-.about .progress .progress-bar {
-    background: #212121;
-    font-size: 22px;
-}
 
 .services {
     margin-bottom: 455px;
@@ -674,25 +671,7 @@ header .caption .btn:hover {
   color: red;
 }
 
-body {
-    min-width: 410px;
-    font-family: 'Cormorant';
-    color: #fff;
-    font-size: 16px;
-}
 
-p {
-    font-size: 16px;
-    color: #fff;
-}
-
-h2 {
-    font-size: 36px;
-    color: #000;
-    font-family: 'Cormorant';
-    text-transform: uppercase;
-    text-align: center;
-}
 
 .fix {
     background: #212121;
@@ -718,3 +697,71 @@ h2 {
 .up .fa {
     color: #fff;
 }
+
+
+@media (max-width: 576px) {
+    header {
+      height: 140vh;
+    }
+    header .caption {
+        margin-top: 60px;
+        margin-left: 24px;
+    }
+    header .caption h1 {
+      font-size: 25px;
+    }
+    header .caption p {
+      font-size: 15px;
+    }
+    .about {
+        margin-top: 0;
+    }
+    .about h2 {
+        font-size: 25px;
+    }
+    .about #text {
+        font-size: 15px;
+    }
+    #contacts .content .contacts-item.lg {
+        font-size: 60px;
+    }
+    #contacts .content .contacts-item {
+        font-size: 40px;
+    }
+    #contacts .content .contacts-item.lg .contact-info {
+        font-size: 12px;
+    }
+    #contacts .content .contacts-item a .contact-info {
+        font-size: 15px;
+    }
+    .about .logo img {
+        margin-bottom: 50px;
+    }
+    .resume .content .center img {
+        top: 8%;
+        right: 35%;
+    }
+    .resume .content .center h5 {
+        flex-basis: 0%;
+        margin: auto;
+    }
+    
+    .resume .content .center h4 {
+        flex-basis: 0%;
+        font-size: 18px;
+        margin: auto;
+    }
+    .resume .content .center #edu {
+        margin-bottom: 100px;
+        margin-top: -35px;
+    }
+    .resume .content .center .info {
+        margin-bottom: 125px;
+    }
+    .resume .content .center .cv {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    
+  }
