@@ -8,16 +8,19 @@ body {
 p {
     font-size: 16px;
     color: #fff;
+    font-family: 'Cormorant';
 }
 
-h2 {
+h2,h1,h3,h4 {
     font-size: 36px;
     color: #000;
     font-family: 'Cormorant';
     text-transform: uppercase;
     text-align: center;
 }
-
+div {
+    font-family: 'Cormorant';
+}
 img {
     max-width: 100%;
     height: auto;
@@ -105,8 +108,9 @@ header .caption h1 {
 }
 
 header .caption p {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
+    text-align: center;
 }
 
 header .caption .btn {
@@ -145,7 +149,7 @@ header .caption .btn:hover {
 
 .about p {
     color: #212121;
-    font-size: 22px;
+    font-size: 30px;
     padding-bottom: 15px;
     margin-bottom: 50px;
 }
@@ -720,7 +724,7 @@ header .caption .btn:hover {
         font-size: 25px;
     }
     .about #text {
-        font-size: 15px;
+        font-size: 20px;
     }
     #contacts .content .contacts-item.lg {
         font-size: 60px;
@@ -729,7 +733,7 @@ header .caption .btn:hover {
         font-size: 40px;
     }
     #contacts .content .contacts-item.lg .contact-info {
-        font-size: 12px;
+        font-size: 15px;
     }
     #contacts .content .contacts-item a .contact-info {
         font-size: 15px;
